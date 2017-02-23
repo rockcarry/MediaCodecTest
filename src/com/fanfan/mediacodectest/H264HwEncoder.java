@@ -19,7 +19,7 @@ class H264HwEncoder {
         mediaFormat.setInteger(MediaFormat.KEY_FRAME_RATE, frate  );
         mediaFormat.setInteger(MediaFormat.KEY_BIT_RATE  , bitrate);
         mediaFormat.setInteger(MediaFormat.KEY_COLOR_FORMAT, MediaCodecInfo.CodecCapabilities.COLOR_FormatYUV420SemiPlanar);
-        mediaFormat.setInteger(MediaFormat.KEY_I_FRAME_INTERVAL, 5);
+        mediaFormat.setInteger(MediaFormat.KEY_I_FRAME_INTERVAL, 1);
         mediaFormat.setInteger("store-metadata-in-buffers", 0);
         mediaFormat.setInteger("prepend-sps-pps-to-idr-frames", 1);
         mCodec.configure(mediaFormat, null, null, MediaCodec.CONFIGURE_FLAG_ENCODE);
