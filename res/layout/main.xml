@@ -18,10 +18,34 @@
             android:gravity="center" />
 
         <Button
-            android:id="@+id/btn_start"
+            android:id="@+id/btn_start_nand"
             android:layout_width="fill_parent"
             android:layout_height="58dp"
-            android:text="@string/btn_start"
+            android:text="@string/btn_start_nand"
+            android:textSize="25dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btn_start_extsd"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:text="@string/btn_start_extsd"
+            android:textSize="25dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btn_start_nowrite"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:text="@string/btn_start_nowrite"
+            android:textSize="25dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btn_cpu_test"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:text="@string/btn_cpu_test"
             android:textSize="25dp"
             android:gravity="center" />
 

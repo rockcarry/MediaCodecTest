@@ -3,6 +3,10 @@
 
     <string name="app_name">MediaCodecTest</string>
     <string name="btn_start">start</string>
+    <string name="btn_start_nand">start (nand)</string>
+    <string name="btn_start_extsd">start (extsd)</string>
+    <string name="btn_start_nowrite">start (nowirte)</string>
+    <string name="btn_cpu_test">cpu test</string>
     <string name="btn_stop">stop</string>
 
 </resources>
